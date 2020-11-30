@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+/* backgrounds e dimensionamento */
+body{
+  background-image: url("MaterialeEsercizioLim/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.homepage{
+  width:61%;
+  margin: 2% 20%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4%;
+}
+.contenuto{
+  width:85%;
+  margin: auto;
+  font-family: 'Questrial', sans-serif;
+}
+
+/* testa */
+
+header{
+  text-align:center;
+}
+
+header > img{
+  width: 35%;
+  height:35%;
+  padding-top: 4%;
+}
+
+header > h1{
+  color:#00dd00;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+/* navigazione */
+
+nav{
+  text-align: center;
+  background-color: #00dd00;
+  padding:1.5%;
+}
+
+.checkbox, h3{
+  display: inline-block;
+}
+
+/* principale */
+
+main{
+  color: #ffffff;
+  padding-bottom: 10%;
+}
+
+main > div{
+  padding-top: 3%;
+}
+
+div p:nth-child(3){
+  font-size: 13px;
+}
+div p:nth-child(4){
+  padding-bottom: 0.5%;
+}
+
+
+.gino .progressBar{
+  background-color: #f5b453;
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.mike .progressBar{
+  background-color: #1ec31e;
+  height: 25px;
+  width: 320px;
+  border-radius: 5px;
+}
+
+.fede .progressBar{
+  background-color: #be4141;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+/* coda */
+
+footer{
+  text-align: center;
+  color: #ffffff;
+}
+
+footer:hover{
+  color: #00fffc;
+  font-family: 'Chelsea Market' sans-serif;
+  font-size: 20px;
